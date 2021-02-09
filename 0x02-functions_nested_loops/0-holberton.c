@@ -1,16 +1,19 @@
-#include <stdio.h>
 #include "holberton.h"
 /**
-* main - this is holberton main function
-*
-*/
+ * main - this is holberton main function
+ * Return: Always 0
+ */
 int main(void)
 {
-char text[]="Holberton";
-for(int i =0; i<9;i++)
-{
-_putchar(text[i]);
-}
-_putchar("\n");
-return(0);
+_putchar('H');
+_putchar('o');
+_putchar('l');
+_putchar('b');
+_putchar('e');
+_putchar('r');
+_putchar('t');
+_putchar('o');
+_putchar('n');
+_putchar('\n');
+return (0);
 }

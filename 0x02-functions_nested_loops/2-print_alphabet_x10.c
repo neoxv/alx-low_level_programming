@@ -1,8 +1,16 @@
+#include "holberton.h"
+/**
+ * print_alphabet_x10 - prints the alphabet 10 times
+ *
+ */
 void print_alphabet_x10(void)
 {
-for(int i=0;i<10;i++)
+int i;
+int j;
+for (i = 0; i < 10; i++)
 {
-print_alphabet();
-} 
-
+for (j = 'a'; j <= 'z'; j++)
+_putchar(j);
+_putchar('\n');
+}
 }
