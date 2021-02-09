@@ -33,14 +33,12 @@ else if (j == 9 && val < 10)
 _putchar(' ');
 _putchar(' ');
 _putchar('0' + val);
-_putchar('$');
 }
 else if (j == 9 && val >= 10)
 {
 _putchar(' ');
 _putchar('0' + (val / 10));
 _putchar('0' + (val % 10));
-_putchar('$');
 }
 }
 _putchar('\n');
