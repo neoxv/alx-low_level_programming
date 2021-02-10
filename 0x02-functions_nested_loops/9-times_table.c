@@ -15,31 +15,27 @@ int val = i * j;
 if (j == 0)
 {
 _putchar('0');
-_putchar(',');
+continue;
 }
+_putchar(',');
+_putchar(' ');
 if (val < 10 && j != 9 && j != 0)
 {
 _putchar(' ');
-_putchar(' ');
 _putchar('0' + val);
-_putchar(',');
 }
 else if (val >= 10 && j != 9 && j != 0)
 {
-_putchar(' ');
 _putchar('0' + (val / 10));
 _putchar('0' + (val % 10));
-_putchar(',');
 }
 else if (j == 9 && val < 10)
 {
-_putchar(' ');
 _putchar(' ');
 _putchar('0' + val);
 }
 else if (j == 9 && val >= 10)
 {
-_putchar(' ');
 _putchar('0' + (val / 10));
 _putchar('0' + (val % 10));
 }
