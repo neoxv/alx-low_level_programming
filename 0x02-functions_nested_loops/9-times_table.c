@@ -13,7 +13,10 @@ for (j = 0; j < 10; j++)
 {
 int val = i * j;
 if (j == 0)
+{
 _putchar('0');
+_putchar(',');
+}
 if (val < 10 && j != 9 && j != 0)
 {
 _putchar(' ');
