@@ -1,11 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * print_fizz-buzz - prints num
- * @n: the char
+ * print_fizzbuzz - prints num
  * Return: nothing
  */
-void print_fizz-buzz(void)
+void print_fizzbuzz(void)
 {
 int i = 1;
 for (i = 1; i < 100; i++)
