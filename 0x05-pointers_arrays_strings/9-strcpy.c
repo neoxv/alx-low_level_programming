@@ -21,5 +21,5 @@ while (i >= 0)
 dest--;
 i--;
 }
-return (*dest);
+return (dest);
 }
